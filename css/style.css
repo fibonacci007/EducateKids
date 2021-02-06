@@ -1,0 +1,417 @@
+@import url('../css/font.css');
+
+
+html, body {
+ margin: 0%;  
+ box-sizing: border-box;
+ overflow-x: hidden; 
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+button.btn{
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    background: skyblue;
+}
+
+.text-color{
+    display: flex;
+}
+.text-color li:nth-child(1){
+    color: blue;
+}
+.text-color li:nth-child(2){
+    color: greenyellow;
+}
+.text-color li:nth-child(3){
+    color: green;
+}
+.text-color li:nth-child(4){
+    color: yellow;
+}
+.text-color li:nth-child(5){
+    color: red;
+}
+.text-color li:nth-child(6){
+    color: orange;
+}
+.text-color li:nth-child(7){
+    color: orchid;
+}
+.text-color li:nth-child(8){
+    color: olivedrab;
+}
+.text-color li:nth-child(9){
+    color: blue;
+}
+.text-color li:nth-child(10){
+    color: greenyellow;
+}
+.text-color li:nth-child(11){
+    color: pink;
+}
+.nav{
+    padding: 0.2rem;
+    height: 0rem;
+    min-height: 20vh;
+    overflow: hidden;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+}
+.nav .nav-item{
+    display: flex;
+    margin: 0;
+}
+.nav .nav-item .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 2rem;
+    position: relative;
+    margin: 15px 0px 5px 30px;
+
+}
+.nav .nav-item .nav-link a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: skyblue;
+}
+.nav .nav-item .nav-link a:hover{
+    color: olive;
+}
+.nav .nav-brand a{
+    font-size:2.5rem;
+    font-weight: bold;
+    display: block;
+    font-family: cursive;
+}
+.nav-item .sign-up{
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: skyblue;
+    margin: 2.6rem 4px;
+    height: 3rem;
+    width: 7rem;
+    background: transparent;
+    font-size: 28px;
+} 
+.sign-up:hover{
+    color: olive;
+    cursor: pointer;
+}
+main .home-section{
+    background-image: url(../asset/kidsPics.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+main .home-section .site-background{
+    padding: 10rem;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .home-section .site-background h3{
+    font-style: italic;
+    font-size: 15px;
+}
+main .site-background .btn:hover{
+    background-color: skyblue;
+    border: none;
+    color: white;
+}
+main .site-background .btn{
+    background: transparent;
+    border: 1px solid white;
+    margin: 1rem;
+}
+.info-section{
+    background: #eee;
+    padding-bottom: 10px;
+}
+.hl{
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 37rem;
+    position: absolute;
+}
+.info-section .content img{
+    width: 60vh;
+    height: 60vh;
+    margin: 4rem;
+}
+.info-section .info-text{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info-section .info-text h2{
+    color: olivedrab;
+}
+.info-section .paragraph{
+    text-align: justify;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 250px;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info-section .content{
+    display: flex;
+    flex-direction: row;
+}
+.info-section .content img{
+    padding-right: 20px;
+}
+.mission {
+    padding: 1.5rem;
+    background: olivedrab;
+}
+.mission h1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+.mission h3{
+    text-align: center;
+    color: white;
+}
+.items{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem 9rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: center;
+}
+.items div img{
+    width: 50vh;
+    height: auto;
+}
+.btn2{
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    color: olivedrab;
+}
+.team-main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.team{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.underline {
+    height: 0.25rem;
+    width: 5rem;
+    background: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 50vw;
+    max-width: 620px;
+}
+.review {
+    width: 50vw;
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
+    text-align: center;
+}
+.review:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+#person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.img-container::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10e";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: hsl(205, 78%, 60%);
+    color: #fff;
+}
+.img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: hsl(205, 78%, 60%);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+}
+#author {
+    margin-bottom: 0.25rem;
+}
+#job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color:  hsl(205, 78%, 60%);
+    font-size: 0.85rem;
+}
+#info {
+    margin-bottom: 0.75rem;
+}
+.prev-btn {
+    color: hsl(205, 90%, 76%);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+ .next-btn {
+    color: hsl(205, 90%, 76%);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+    color:  hsl(205, 78%, 60%);
+}
+}
+main .blog .blog-post{
+    padding: 6rem 1rem;
+}
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    margin: 3rem 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+main .blog-content .btn{
+    padding: 12px 30px;
+    background-color: skyblue;
+    margin: 1rem;
+}
+main .blog-content span{
+    display: block;
+}
+.partners{
+    width: 100vw;
+    max-width: 1170px;
+    margin: 2rem 4rem;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+}
+.news-section{
+    padding: 3rem 5rem;
+    background: #eee;
+    text-align: center;
+}
+.my-email{
+    width: 13rem;
+    padding: 18px;
+    margin: 15px;
+    margin-right: 1rem;
+    border: none;
+    font-size: 18px;
+    color: #eee;
+}
+.footer-links ul li a{
+    color: #eee;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 3rem 0px 3rem;
+    background: #325C74;
+    color: orchid;
+    font-weight: bold;
+}
+.footer-links ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+.info-links{
+    margin: 2rem 0px 0px;
+}
+.connect-email{
+    margin: 2rem 6rem 0px 0px;
+}
+.social-media{
+    position: relative;
+    margin: 10px 10px;
+}
+.social-media h2{
+    margin: 2rem 0px 10px 1.5rem;
+    color: white;
+    font-size: 20px;
+}
+.social-media img{
+    margin: 5px 5px;
+}
+:root {
+    --text-gray: #3f4594;
+}
+
+@media only screen and (max-width: 750px) {
+    .nav .nav-menu, .nav .nav-item{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px){
+    .partners{
+        grid-template-columns: repeat(4, 0fr);
+    }
+} 

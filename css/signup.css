@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../asset/blogbackground5.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-position: center;
+}
+.signup{
+    width: 400px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px 40px 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.signup h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.my-input{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #1c8adb;
+}
+.btn2{
+    background-color: #21afde;
+}
+a {
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 220px;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    border-radius: 3rem;
+    width: 70px;
+    margin-top: -50px;
+}
